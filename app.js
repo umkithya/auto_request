@@ -27,7 +27,7 @@ var myInterval =  setInterval(() => {
   
    // Increment post tracker
    num++
-   console.log('Wait for 2 second...')
+   console.log('Wait for 5 minute...')
    runRequest()
 
 }, 300000)
