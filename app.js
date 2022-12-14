@@ -27,10 +27,10 @@ var myInterval =  setInterval(() => {
   
    // Increment post tracker
    num++
-   console.log('Wait for 5 minute...')
+   console.log('Wait for 1 minute...')
    runRequest()
 
-}, 300000)
+}, 60000)
 
 function stop() {
     clearInterval(myInterval);
